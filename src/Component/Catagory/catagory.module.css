@@ -1,0 +1,34 @@
+.catagory{
+    height: 35px;
+    width: 35px;
+    background-color: white;
+
+}
+.catagory img{
+    /* width: 100%; */
+    object-fit: contain;
+    max-height: 250px;
+    padding: 0px 10px;
+}
+.catagory a{
+    text-decoration: none;
+    color: rgb(35,35,35);
+}
+.catagory h2 p{
+    padding: 5px;
+    margin-left: 15px;
+}
+.catagory p{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(9,192,209);
+}
+
+
+.catagory_container{
+    position: relative;
+    margin-top: -10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+}
